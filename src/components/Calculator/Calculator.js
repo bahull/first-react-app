@@ -79,7 +79,7 @@ class Calculator extends Component {
               <input onChange ={ e => {this.updateHeader(e.target.value)}}
               id="header-input"/>
               <h1 id="header"> {this.state.header} </h1>
-              <img className="remove-highlight" src={calculatorImg} alt="calculator" />
+              <img className="remove-highlight" src={calculatorImg} alt="calculator" />`
               <div id="calculator-mask" className="remove-highlight">
                 <div className="output">
                   <span className="total">{this.state.display}</span>
